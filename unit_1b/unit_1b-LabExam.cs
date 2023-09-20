@@ -6,9 +6,10 @@ namespace MyApplication
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello user, please enter the percentage of correct answers you got on your exam, ex. 90 , 40 , 55 ect.");
-      int TS = Convert.ToInt32(Console.ReadLine());
-      Console.WriteLine("The score you entered is " + TS);
+      Console.WriteLine("Hello user, please enter the percentage of correct answers you got on your exam, ex. 90 , 40 , 55 ect."); 
+      //percentage numbers were messing up the code, so i asked for a number
+      int TS = Convert.ToInt32(Console.ReadLine()); //TS = the score
+      Console.WriteLine("The score you entered is " + TS); //read it back to them
       if (TS > 100)
       {
       Console.WriteLine("Amazing! you scored an A+.");
@@ -35,7 +36,7 @@ namespace MyApplication
       }
       else
       {
-      Console.WriteLine("Sorry, please enter in your score again!");  
+      Console.WriteLine("Sorry, please enter in your score again!"); //responses given as well as a "just in case" messup response 
       }
     }
   }
