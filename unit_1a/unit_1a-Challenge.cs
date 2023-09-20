@@ -26,6 +26,7 @@ namespace MyApplication
       else 
       {
         Console.WriteLine("Good evening." + userName);
+      }
       //here ive included a little welcome with there name, which changes depending on the time of day.
       Console.WriteLine("Now that we are ready to begin, please input your favorite live-action Spider-man!");
       Console.WriteLine("you may either enter, Tobey_Maguire, Andrew_Garfield or Tom_Holland");
